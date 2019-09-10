@@ -1,7 +1,9 @@
 """This programs take input of inches and converts to feet"""
 def convert_inches_to_feet(inches):
-    pass
-    # not implemented
+    INCHES_IN_FEET = 12
+    feet = inches / INCHES_IN_FEET
+    return int(feet)
+    # fix test_twenty_four_inches
 
 
 if __name__ == '__main__':
